@@ -1,0 +1,7 @@
+version: '2'
+services:
+    app:
+        build: .
+        ports:
+            - "8093:8093"
+        restart: unless-stopped
