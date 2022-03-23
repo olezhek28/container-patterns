@@ -6,7 +6,7 @@ import (
 	"net/http"
 )
 
-const serverAddress = "localhost:8093"
+const serverAddress = ":8093"
 
 func main() {
 	fmt.Println("http server is available at", serverAddress)
